@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Expense tracker</title>
+    </head>
+    <body>
+        <div>
+            <h1><center>Daily Expense Tracker</center></h1>
+            <p><center>Spend less, Save your Future!</center></p>
+        </div>
+        <hr>
+        <div>
+            <h3><center>Total Expense of Today</center></h3>
+            <h3><center>0 rs</center></h3>
+        </div>
+        <hr>
+        <div>
+            <fieldset>
+                <legend>New Expense</legend>
+                <br>
+                <form>
+                    <label>Expense name :</label>
+                    <input type = "text" required >
+                    <br><br>
+
+                    <lable>Amount :</lable>
+                    <input type = "number" required>
+                    <br><br>
+
+                    <label>Category :</label>
+                    <label>UPI</label>
+                    <input type = "radio" name="category">
+                    <label>Cash</label>
+                    <input type = "radio" name="category">
+                    <lable>Card</lable>
+                    <input type = "radio" name="category">
+                    <br><br>
+
+                    <label>Date :</label>
+                    <input type ="date" required>
+                    <br><br>
+
+                    <button>Add Expense</button>
+
+                </form>
+            </fieldset>
+        </div>
+        <hr>
+        <h3>History of Expense</h3>
+        <table border="1";>
+            <tr>
+                <th>Date</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Amount</th>
+            </tr>
+        </table>
+    </body>
+</html>
