@@ -1,0 +1,62 @@
+*{
+    box-sizing: boarder-box;
+}
+/*-----Full Body-----*/
+body {
+    margin: 0;
+    font-family: Arial , sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+/*-----HEADER-----*/
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.header {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#page-title {
+    margin: 0 0 10px;
+    font-size: 32px;
+}
+
+.header p {
+    margin: 0;
+    color: #666;
+    font-size: 16px;
+}
+
+/*-----HORIZONTAL LINE-----*/
+
+hr {
+    border:none;
+    border-top:1px solid #ddd;
+    margin: 25px 0;
+}
+
+/*-----TOTAL EXPENSE-----*/
+
+.total-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.total-card h3{
+    margin: 8px;
+}
+
+#total-expense {
+    font-size: 30px;
+    margin-top: 15px;
+}
