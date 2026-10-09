@@ -174,3 +174,38 @@ input[type = "date"]:focus {
 #expense-table th{
     background-color: #f1f1f1;
 }
+
+/*-----OTHER DEvice portable-----*/
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .header {
+        padding: 20px;
+    }
+
+    #page-title {
+        font-size: 26px;
+    }
+
+    .form-sec,.history-sec {
+        padding: 15px;
+    }
+
+    fieldset{
+        padding:15px;
+    }
+
+    .form-options {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #expense-table{
+        font-size: 14px;
+    }
+}
