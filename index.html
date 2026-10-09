@@ -28,13 +28,13 @@
                     <form id="expense-form">
                         <div class="form-group">
                             <label>Expense name :</label>
-                            <input type = "text" required >
+                            <input type = "text" id="expense-name" required >
                             
                         </div>
 
                         <div class="form-group">
                             <label>Amount :</label>
-                            <input type = "number" required>
+                            <input type = "number" id="expense-amount" min="0.01" step="any" required>
                             
                         </div>
 
@@ -43,17 +43,17 @@
 
                             <div class="form-options">
                                 <label>
-                                    <input type="radio" name="category">
+                                    <input type="radio" name="category" value="UPI" required>
                                     UPI
                                 </label>
 
                                 <label>
-                                    <input type="radio" name="category">
+                                    <input type="radio" name="category" value="Cash">
                                     Cash
                                 </label>
 
                                 <label>
-                                    <input type="radio" name="category">
+                                    <input type="radio" name="category" value="Card">
                                     Card
                                 </label>
                             </div>
@@ -61,7 +61,7 @@
 
                         <div class="form-group">
                             <label>Date :</label>
-                            <input type ="date" required>
+                            <input type ="date" id="expense-date" required>
                             
                         </div>
 
@@ -87,11 +87,14 @@
                         </tr>
                     </thead>
 
-                    <tbody>
+                    <tbody id="expense-list">
 
                     </tbody>
                 </table>
             </div>
         </div>
+
+        <script src="script.js"></script>
+        
     </body>
 </html>
