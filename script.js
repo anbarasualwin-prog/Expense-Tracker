@@ -11,6 +11,20 @@ const totalExpense = document.getElementById("total-expense");
 
 let expenses = [];
 
+// Date limit till today
+
+const today = new Date(); //Get Today's Date
+
+    //to Formate the date:
+const year = today.getFullYear();
+const month = String(today.getMonth() + 1).padStart(2,"0");
+const day  = String(today.getDate()).padStart(2,"0");
+
+const todayDate = `${year}-${month}-${day}`;
+    
+    // prevent future dates
+expenseDate.max = todayDate;
+
 // Form Submit event
 
 expenseForm.addEventListener("submit",function(event){
@@ -32,6 +46,13 @@ expenseForm.addEventListener("submit",function(event){
 
     if(!selectedCategory){
         alert("Please Select a Category!!!");
+        return;
+    }
+
+    //Check valid Date
+    
+    if(expenseDate.value > todayDate) {
+        alert("Enter a valid Date");
         return;
     }
 
