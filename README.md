@@ -22,12 +22,8 @@ Add your expenses, select a payment category, and view your expense history in o
 
 ## 📂 Project Structure
 
-Daily-Expense-Tracker/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+<img width="231" height="186" alt="{C638F2E7-AAC7-4813-8CDA-BDE79A762807}" src="https://github.com/user-attachments/assets/1e6e28af-966d-4059-9717-75421e689c33" />
+
 
 ## 🚀 How to Run
 
