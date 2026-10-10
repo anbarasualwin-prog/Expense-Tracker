@@ -43,7 +43,7 @@ Add your expenses, select a payment category, and view your expense history in o
 
 The objective of this project is to learn and practice HTML, CSS, and JavaScript by building a simple daily expense tracking application.
 
-## 🔮 Future Improvements
+## 🔮 Future Improvements Still on Progress
 
 - Store expenses using LocalStorage
 - Add expense deletion functionality
