@@ -111,7 +111,14 @@ function updateTotal(){
 
     expenses.forEach(function(expense){
 
-        total += expense.value;
+        const amount = Number(expense.amount);
+
+        if(Number.isFinite(amount)){
+
+            total = total + amount;
+
+        }
+        
     });
 
     totalExpense.textContent = "₹" + total.toFixed(2);
