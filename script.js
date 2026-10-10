@@ -86,7 +86,7 @@ function displayExpenses(){
 
         dateCell.textContent = expense.date;
         nameCell.textContent = expense.name;
-        typeCell.textContent = expense.cateory;
+        typeCell.textContent = expense.category;
         amountCell.textContent  = "₹" + expense.amount.toFixed(2);
 
         //Add cells to row
